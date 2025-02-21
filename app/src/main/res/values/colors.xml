@@ -7,4 +7,8 @@
     <color name="yellow2">#88ffffff</color>
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
+    <color name="principal_fondo_guia">#FF123456</color> <!-- Opaco -->
+    <color name="principal_comienzo_trasparencia">#AA123456</color> <!-- Semitransparente -->
+    <color name="principal_final_trasparencia">#CC123456</color> <!-- Menos transparente -->>
+    <color name="pulse">#66A650F0</color>
 </resources>

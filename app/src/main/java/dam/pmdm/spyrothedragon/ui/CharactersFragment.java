@@ -1,5 +1,6 @@
 package dam.pmdm.spyrothedragon.ui;
 
+import android.animation.ObjectAnimator;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,6 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import dam.pmdm.spyrothedragon.R;
+import dam.pmdm.spyrothedragon.databinding.GuiaPersonajesBinding;
 import dam.pmdm.spyrothedragon.models.Character;
 import dam.pmdm.spyrothedragon.adapters.CharactersAdapter;
 import dam.pmdm.spyrothedragon.databinding.FragmentCharactersBinding;
@@ -31,20 +33,24 @@ public class CharactersFragment extends Fragment {
     private CharactersAdapter adapter;
     private List<Character> charactersList;
 
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
         binding = FragmentCharactersBinding.inflate(inflater, container, false);
+
         // Inicializamos el RecyclerView y el adaptador
         recyclerView = binding.recyclerViewCharacters;
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         charactersList = new ArrayList<>();
-        adapter = new CharactersAdapter(charactersList);
+        adapter = new CharactersAdapter(charactersList, getContext());
         recyclerView.setAdapter(adapter);
+
 
         // Cargamos los personajes desde el XML
         loadCharacters();
         return binding.getRoot();
+
     }
 
     @Override

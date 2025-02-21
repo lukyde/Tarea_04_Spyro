@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+        <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="?attr/colorPrimary"
+                android:elevation="3dp"
+                android:title="Mi Aplicación"
+                tools:ignore="MissingConstraints" />
     <!-- NavHostFragment para manejar la navegación entre fragmentos -->
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/navHostFragment"
@@ -28,3 +41,26 @@
         app:menu="@menu/bottom_nav_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include
+        android:id="@+id/includePantalla1"
+        layout="@layout/pantalla1" />
+    <include
+        android:id="@+id/includePersoneje"
+        layout="@layout/guia_personajes" />
+    <include
+        android:id="@+id/includeColeciones"
+        layout="@layout/guia_coleccionable" />
+    <include
+        android:id="@+id/guia_mundos"
+        layout="@layout/guia_mundos" />
+    <include
+        android:id="@+id/guia_informacion"
+        layout="@layout/guia_informacion" />
+
+    <include
+        android:id="@+id/includeFinal"
+
+        layout="@layout/guia_pantalla_final" />
+
+</FrameLayout>

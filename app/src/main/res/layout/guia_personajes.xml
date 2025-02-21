@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/g_personajes"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/marcador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:src="@drawable/pulse"
+        android:layout_marginStart="-100dp"
+        android:layout_marginBottom="-100dp"/>
+    <TextView
+        android:id="@+id/texto_personaje"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/guia_personajes"
+        android:layout_marginBottom="110dp"
+        android:layout_marginStart="10dp"
+        android:visibility="gone">
+
+    </TextView>
+    <Button
+        android:id="@+id/boton_continuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:text="@string/boton_seguir"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/boton_salir"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:text="@string/boton_salir"
+        android:visibility="gone"/>
+
+</FrameLayout>

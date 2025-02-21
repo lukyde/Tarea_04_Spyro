@@ -4,6 +4,21 @@
     <string name="characters">Personajes</string>
     <string name="collectibles">Coleccionables</string>
     <string name="title_about">Acerca de</string>
-    <string name="text_about">Aplicación desarrollada por \n <b>Lindsay Barrero Martínez.</b></string>
+    <string name="text_about">Aplicación desarrollada por \n <b>Raúl Manuel Luna Palma.</b></string>
     <string name="accept">Aceptar</string>
+    <string name="bienvenido">BIENVENIDO</string>
+    <string name="texto_inicial">Preparate para explorar esta aplicación. Inspirada en el  mundo mágico de </string>
+    <string name="texto_inicial_bajo">Aquí aprenderas a navegar por pestañas llenas de dragone, mundos fascinantes y montones de tesores britalles.\n ¿Listo para empezar? \n \n \n Pulsa para comenzar \n</string>
+    <string name="comenzar">COMENZAR</string>
+    <string name="guia_personajes">Aquí podras explorar todos  \n los personajes del mundo  \n de Spyro</string>
+    <string name="guia_coleccionables">Aquí podras explorar todos los coleccionable del mundo de Spyro</string>
+    <string name="guia_mundos">Aquí podras explorar todos  \n los escenarios del mundo  \n de Spyro</string>
+    <string name="guia_info">Aquí podras explorar toda  \n la información  \n de esta app</string>
+    <string name="pantalla_final_titulo">¡VAMOS A COMENZAR!</string>
+    <string name="resumen_guia">¡Has completado la guía! Ahora ya sabes cómo moverte por la aplicación. Pulsa Finalizar para empezar a usarla.</string>
+    <string name="boton_comenzar">COMENZAR</string>
+    <string name="boton_seguir">CONTINUAR</string>
+    <string name="boton_salir">Salir de la guía</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
