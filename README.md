@@ -7,8 +7,9 @@ Ejercicio para el módulo de Programación multimedia y dispositivos móviles.
   
 ## Características principales
 - **Personajes**: Muestra una lista de personajes de Spyro donde aparecera la pantalla que guía por esta parte de la app.
-- **Mundos** : Muestra la lista de los diferentes niveles del juego donde aparecera la pantalla que guía por esta parte de la app.
+- **Mundos**: Muestra la lista de los diferentes niveles del juego donde aparecera la pantalla que guía por esta parte de la app.
 - **Coleccionables**: Lista de los diferentes objetos del juego donde aparecera la pantalla que guía por esta parte de la app.
+- **SoundPool**: Clase para gestionar la reproducción de sonido en la app.
   
 ## Tecnologías utilizadas
 El proyecto ha sido desarrollado con las siguientes tecnologías:
