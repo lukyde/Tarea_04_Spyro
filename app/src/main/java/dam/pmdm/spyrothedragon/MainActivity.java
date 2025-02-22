@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
             bindingPantalla.pantalla1.setVisibility(View.INVISIBLE);
         }
 
-        inicializarGuia();
+        
 
     }
 
