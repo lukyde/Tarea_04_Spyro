@@ -24,11 +24,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-2. Agregar las dependencias y tecnologías usadas:
-   ```bash
-   https://pokeapi.co/
-   https://firebase.google.com/?hl=es-419
-3. Instalar un emulador para correr la aplicación
+2. Instalar un emulador para correr la aplicación
 4. Para moverse por la aplicación:
   Al inicio solo se ejecuta una vez la guía, se puede ir navegando por ella usando el botón continuar o saltarla en el botón salir.
    En la aplicación ademas de ver los diferentes personajes y mundos tambien se puede iniciar un video pinchando 3 veces sobre uno de los coleccionables o visualizar
